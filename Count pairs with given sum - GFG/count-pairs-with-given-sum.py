@@ -3,16 +3,16 @@
 class Solution:
     def getPairsCount(self, arr, n, k):
         
-        dist = {}
+        dict = {}
         pairs = 0
         
         for i in arr:
-            if k-i in dist:
-                pairs+=dist[k-i]
-            if i in dist:
-                dist[i]+=1
+            if k-i in dict:
+                pairs+=dict[k-i]
+            if i in dict:
+                dict[i]+=1
             else:
-                dist[i]=1
+                dict[i]=1
         return pairs
 
 
