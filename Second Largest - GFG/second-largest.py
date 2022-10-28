@@ -8,6 +8,7 @@ class Solution:
     for i in range(n-2,-1,-1):
         if arr[i]!=arr[n-1]:
             return arr[i]
+            break
     return -1
 
 #{ 
