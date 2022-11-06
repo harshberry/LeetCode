@@ -1,0 +1,28 @@
+# Remove characters from alphanumeric string
+## Easy
+<div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Remove all characters except the numeric characters&nbsp;from an alphanumeric string.</span></p>
+
+<p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
+
+<pre><span style="font-size:18px"><strong>Input:</strong> S = "</span><span style="font-size:20px">AA1d23cBB4</span><span style="font-size:18px">"
+<strong>Output:</strong> 1234
+<strong>Explanation:</strong> Remove all chacactres 
+other than numbers</span></pre>
+
+<p><span style="font-size:18px"><strong>Example 2:</strong></span></p>
+
+<pre><span style="font-size:18px"><strong>Input:</strong> S = "a1b2c3"
+<strong>Output:</strong> 123
+<strong>Explanation:</strong> Remove all chacactres
+other than numbers</span></pre>
+
+<p><span style="font-size:18px"><strong>Your task:</strong><br>
+Your task is to complete the function&nbsp;<strong><code>string</code>()&nbsp;</strong>which takes a single string as input and returns the string. You need not take any input or print anything.</span><br>
+&nbsp;</p>
+
+<p><span style="font-size:18px"><strong>Expected Time Complexity:&nbsp;</strong>O(|S|)<br>
+<strong>Expected Auxiliary Space:&nbsp;</strong>O(1)</span></p>
+
+<p><span style="font-size:18px"><strong>Constraints:</strong><br>
+1 &lt;= |S| &lt;= 10<sup>5</sup></span></p>
+</div>
